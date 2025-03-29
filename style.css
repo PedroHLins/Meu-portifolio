@@ -7,11 +7,13 @@
 :root{
     --branco: #fff;
     --preto: #000;
+    --cinzaesc: #1d1d1d;
 }
 
 body{
-    background-color: var(--preto);
+    padding-top: 60px;
     color: var(--branco);
+    background-color: var(--preto);
 }
 
 nav{
@@ -35,6 +37,8 @@ a{
     text-decoration: none;
 }
 
+/* Apresentação */
+
 #apresentacao{
     display: flex;
     flex-direction: column;
@@ -42,6 +46,53 @@ a{
     margin-top: 200px;
     gap: 25px;
 }
+
+#ola{
+    font-size: 30px;
+}
+
+#nome{
+    font-size: 45px;
+}
+
+/* Sobre */
+
+#sobre{
+    background-color: var(--cinzaesc);
+    margin-top: 700px;
+    padding: 100px;
+}
+
+#sobre p{
+    margin-left: 10px;
+}
+
+
+
+img{
+    height: 500px;
+    width: 510px;
+    border-radius: 100vh;
+}
+
+h2{
+    padding: 10px;
+}
+
+
+/* classes */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    margin-left: 50px;
+}
+
+/* Outros */
 
 #links{
     margin-top: 25px;
@@ -53,12 +104,4 @@ a{
 
 #contatos{
     margin-top: 2000px;
-}
-
-#ola{
-    font-size: 30px;
-}
-
-#nome{
-    font-size: 45px;
 }

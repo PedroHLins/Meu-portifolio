@@ -8,37 +8,54 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <main>
+    <header>
         <nav>
             <a href="#apresentacao">Home</a>
             <a href="#sobre">Sobre mim</a>
             <a href="#projetos">Projetos</a>
             <a href="#contatos">Contato</a>
         </nav>
-
+    </header>
+        
+    <main>
         <section id="apresentacao">
             <p id="ola">Olá, meu nome é</p>
             <p id="nome">PEDRO HENRIQUE LINS SANTOS</p>
         </section>
 
         <section id="links">
-            <a href="https://www.linkedin.com/in/pedro-henrique-lins-bba690345/" target="_blank">
+            <a href="https://www.linkedin.com/in/pedro-henrique-lins-bba690345/" target="_blank" aria-label="linkedin">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/PedroHLins" target="_blank">
+            <a href="https://github.com/PedroHLins" target="_blank" aria-label="github">
                 <i class="fab fa-github"></i>
             </a>
         </section>
 
-        <secction id="sobre"></secction>
-
-        <secction id="projetos"></secction>
+        <section id="sobre">
+            <div class="container">
+                <div class="foto">
+                    <img src="./img/IMG_20250305_230749.png" alt="Pedro">
+                </div>
+                <div class="texto">
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Me chamo Pedro Henrique Lins Santos, tenho 19 anos e estou cursando o 3º semestre de ciência
+                        da computação na universidade positivo, estou à procura do meu primeiro emprego, sou mais 
+                        interessado em linguagens backend, banco de dados e redes, estou disposto a me comprometer com a 
+                        empresa e aprender.
+                    </p>
+                </div>
+            </div>
+        </section>
+            
+        <section id="projetos"></section>
 
         <section id="contatos">
-            <a href="https://wa.me/41996475888" target="_blank">
+            <a href="https://wa.me/41996475888" target="_blank" aria-label="whatsapp">
                 <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="mailto:pedrolins971@gmail.com" target="_blank">
+            <a href="mailto:pedrolins971@gmail.com" target="_blank" aria-label="email">
                 <i class="fas fa-envelope"></i>
             </a>
         </section>
