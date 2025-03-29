@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root{
+    --branco: #fff;
+    --preto: #000;
+}
+
+body{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
 nav{
     display: flex;
     justify-content: flex-end;
@@ -13,7 +23,7 @@ nav{
 }
 
 i{
-   color: #000;
+    color: var(--branco);
 }
 
 a{
@@ -33,7 +43,7 @@ a{
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     font-size: 48px; 
 }
 
