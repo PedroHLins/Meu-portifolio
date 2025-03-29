@@ -20,6 +20,10 @@ nav{
     gap: 15px;
     margin-right: 20px;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 i{
@@ -35,7 +39,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 200px;
     gap: 25px;
 }
 
@@ -45,6 +49,10 @@ a{
     justify-content: center;
     gap: 20px;
     font-size: 48px; 
+}
+
+#contatos{
+    margin-top: 2000px;
 }
 
 #ola{
